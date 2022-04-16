@@ -1,0 +1,43 @@
+package com.odm.educaciencia.email;
+
+public class Request {
+	private String corpoEmail; // primeiro atributo
+	private String assuntoEmail; // segundo atributo
+	private String emailDestino; // terceiro atributo
+
+	public Request() {
+		super();
+	}
+
+	public Request(String corpoEmail, String assuntoEmail, String emailDestino) {
+		super();
+		this.corpoEmail = corpoEmail;
+		this.assuntoEmail = assuntoEmail;
+		this.emailDestino = emailDestino;
+	}
+
+	public String getCorpoEmail() {
+		return corpoEmail;
+	}
+
+	public void setCorpoEmail(String corpoEmail) {
+		this.corpoEmail = corpoEmail;
+	}
+
+	public String getAssuntoEmail() {
+		return assuntoEmail;
+	}
+
+	public void setAssuntoEmail(String assuntoEmail) {
+		this.assuntoEmail = assuntoEmail;
+	}
+
+	public String getEmailDestino() {
+		return emailDestino;
+	}
+
+	public void setEmailDestino(String emailDestino) {
+		this.emailDestino = emailDestino;
+	}
+
+}

@@ -1,0 +1,54 @@
+package com.odm.educaciencia.email;
+
+public class Request {
+	private String emailRemetente;
+	private String emailDestino;
+	private String assuntoEmail;
+	private String corpoEmail;
+
+	public Request() {
+		super();
+	}
+
+	public Request(String emailRemetente, String emailDestino,
+			String assuntoEmail, String corpoEmail) {
+		super();
+		this.emailRemetente = emailRemetente;
+		this.emailDestino = emailDestino;
+		this.assuntoEmail = assuntoEmail;
+		this.corpoEmail = corpoEmail;
+	}
+
+	public String getEmailRemetente() {
+		return emailRemetente;
+	}
+
+	public void setEmailRemetente(String emailRemetente) {
+		this.emailRemetente = emailRemetente;
+	}
+
+	public String getEmailDestino() {
+		return emailDestino;
+	}
+
+	public void setEmailDestino(String emailDestino) {
+		this.emailDestino = emailDestino;
+	}
+
+	public String getAssuntoEmail() {
+		return assuntoEmail;
+	}
+
+	public void setAssuntoEmail(String assuntoEmail) {
+		this.assuntoEmail = assuntoEmail;
+	}
+
+	public String getCorpoEmail() {
+		return corpoEmail;
+	}
+
+	public void setCorpoEmail(String corpoEmail) {
+		this.corpoEmail = corpoEmail;
+	}
+
+}

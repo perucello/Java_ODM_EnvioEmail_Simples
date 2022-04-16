@@ -1,0 +1,13 @@
+package com.odm.educaciencia.email.main;
+
+import com.odm.educaciencia.email.Envia_email;
+
+public class Main_ODM {
+
+	public static void main(String[] args) {
+
+		String corpoEmail = "bla bla bla ODM - Renan Nassim Perucello";
+		Envia_email send = new Envia_email();
+		send.enviaEmailODM(corpoEmail);
+	}
+}

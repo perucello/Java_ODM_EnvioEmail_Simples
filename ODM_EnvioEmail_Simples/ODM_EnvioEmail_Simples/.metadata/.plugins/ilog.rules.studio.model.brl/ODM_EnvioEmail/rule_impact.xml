@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.odm.educaciencia.email.Envia_email/assuntoEmail/GETTER#0">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocElt>
+        <vocElt id="com.odm.educaciencia.email.Envia_email/corpoEmail/GETTER#0">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocElt>
+        <vocElt id="com.odm.educaciencia.email.Envia_email/enviaEmailODM()/ACTION#0">
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocElt>
+        <vocElt id="com.odm.educaciencia.email.Envia_email/emailDestino/SETTER#0">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocElt>
+        <vocElt id="com.odm.educaciencia.email.Envia_email/corpoEmail/SETTER#0">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocElt>
+        <vocElt id="com.odm.educaciencia.email.Envia_email">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocElt>
+        <vocElt id="com.odm.educaciencia.email.Envia_email/emailDestino/GETTER#0">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocElt>
+        <vocElt id="com.odm.educaciencia.email.Envia_email/disparaEmail_ODM(java.lang.String,java.lang.String,java.lang.String)/ACTION#0">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+        </vocElt>
+        <vocElt id="com.odm.educaciencia.email.Envia_email/assuntoEmail/SETTER#0">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="906f6203-8853-4d53-9084-570fb1485477">
+            <vocElt id="com.odm.educaciencia.email.Envia_email/assuntoEmail/GETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/corpoEmail/GETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/emailDestino/SETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/corpoEmail/SETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/emailDestino/GETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/disparaEmail_ODM(java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/assuntoEmail/SETTER#0"/>
+        </rule>
+        <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff">
+            <vocElt id="com.odm.educaciencia.email.Envia_email/assuntoEmail/GETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/corpoEmail/GETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/enviaEmailODM()/ACTION#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/emailDestino/SETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/corpoEmail/SETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/emailDestino/GETTER#0"/>
+            <vocElt id="com.odm.educaciencia.email.Envia_email/assuntoEmail/SETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="Envia_email">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="906f6203-8853-4d53-9084-570fb1485477">
+            <param id="Envia_email"/>
+        </rule>
+        <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff">
+            <param id="Envia_email"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="481bfd73-1fe1-424f-a266-ed380fb71c96">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/ODM_EnvioEmail/bom/modelo_pt_BR.voc" id="21d35738-b989-48ec-b618-d00a2fb3ea16">
+            <rule id="906f6203-8853-4d53-9084-570fb1485477"/>
+            <rule id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/ODM_EnvioEmail/regras/variaveis.var" id="481bfd73-1fe1-424f-a266-ed380fb71c96"/>
+        <resource file="/ODM_EnvioEmail/regras/01_EnviaEmail.brl" id="06262a29-b220-4c43-9a54-295ca3bbbaff"/>
+        <resource file="/ODM_EnvioEmail/regras/02_EnviaEmail_objeto.brl" id="906f6203-8853-4d53-9084-570fb1485477"/>
+    </resourceTable>
+</impactTables>

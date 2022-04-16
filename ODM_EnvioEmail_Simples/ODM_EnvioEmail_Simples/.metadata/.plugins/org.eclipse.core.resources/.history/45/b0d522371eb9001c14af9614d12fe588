@@ -1,0 +1,17 @@
+package com.odm.educaciencia.email.teste;
+
+import com.odm.educaciencia.email.Envia_email;
+
+public class TesteSend {
+
+	public static void main(String[] args) {
+
+		String emailDestino = "perucello@sysconecte.com.br";
+		String assuntoEmail = "teste envio de email ODM";
+		String corpoEmail = "bla bla bla";
+		Envia_email send = new Envia_email();
+		send.enviarEmail(emailDestino, assuntoEmail, corpoEmail);
+
+	}
+
+}

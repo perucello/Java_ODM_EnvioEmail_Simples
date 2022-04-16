@@ -1,0 +1,5 @@
+package com.odm.educaciencia.email;
+
+public class Envia_email {
+
+}

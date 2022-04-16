@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variaveis</name>
+  <uuid>481bfd73-1fe1-424f-a266-ed380fb71c96</uuid>
+  <variables name="Request" type="com.odm.educaciencia.email.Request" initialValue="" verbalization="myVRequestar"/>
+</ilog.rules.studio.model.base:VariableSet>

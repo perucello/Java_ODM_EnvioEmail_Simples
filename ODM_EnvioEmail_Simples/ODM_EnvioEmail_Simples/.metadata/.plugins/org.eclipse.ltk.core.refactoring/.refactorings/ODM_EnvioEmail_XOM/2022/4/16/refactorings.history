@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;ODM_EnvioEmail_XOM&apos;&#x0D;&#x0A;- Original project: &apos;ODM_EnvioEmail_XOM&apos;&#x0D;&#x0A;- Original element: &apos;ODM_EnvioEmail_XOM/src/com.odm.educaciencia.email.teste&apos;" description="Delete element" element1="/src&lt;com.odm.educaciencia.email.teste" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1649629996858" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="envia" targetRuleProjectName="ODM_EnvioEmail">
+  <name>envia</name>
+  <uuid>9b514f12-70ef-4269-b887-2e3f8cdf212b</uuid>
+  <referencedVariables variableName="Request" variableSetName="variaveis">
+    <variableSet href="../regras/variaveis.var#481bfd73-1fe1-424f-a266-ed380fb71c96"/>
+  </referencedVariables>
+  <referencedVariables variableName="Envia_email" variableSetName="variaveis" direction="OUT">
+    <variableSet href="../regras/variaveis.var#481bfd73-1fe1-424f-a266-ed380fb71c96"/>
+  </referencedVariables>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="envia_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../ODM_EnvioEmail#049a4df1-29c4-4ca2-bf14-48ef17d5a6c3"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

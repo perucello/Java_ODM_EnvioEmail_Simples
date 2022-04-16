@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.irl:IRLRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.irl="http://ilog.rules.studio/model/irl.ecore">
+  <name>01_EnviaEmail</name>
+  <uuid>217ca647-ab6f-4b41-a77b-57d48bf4ac28</uuid>
+  <definition><![CDATA[when {
+
+}
+then {
+
+}]]></definition>
+</ilog.rules.studio.model.irl:IRLRule>

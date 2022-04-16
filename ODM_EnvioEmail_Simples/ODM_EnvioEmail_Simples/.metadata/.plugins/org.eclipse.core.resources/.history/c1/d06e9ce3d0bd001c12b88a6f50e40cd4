@@ -1,0 +1,24 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/ODM_EnvioEmail//ODM_EnvioEmail_XOM"
+property uuid "114233c9-4474-4792-80eb-944ce5a543ba"
+package com.odm.educaciencia.email;
+
+
+public class Envia_email
+{
+    public string assuntoEmail;
+    public string corpoEmail;
+    public string emailDestino;
+    public string emailRemetente;
+    public java.util.ArrayList observacoes domain 0,* class string;
+    public Envia_email();
+    public Envia_email(string arg1, 
+        string arg2, 
+        string arg3, 
+        string arg4, 
+        java.util.ArrayList arg5 domain 0,* class string);
+    public void enviaEmailODM();
+    public void enviaEmailODM(string arg1, string arg2, string arg3);
+}
+

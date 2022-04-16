@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/ODM_EnvioEmail/implementação/envia.dop"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="Envia_email" value="function com.odm.educaciencia.email.Envia_email get_Envia_email_value()"/>
+<mapEntry key="Request" value="function com.odm.educaciencia.email.Request get_Request_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="Envia_email" value="com.odm.educaciencia.email.Envia_email result = new com.odm.educaciencia.email.Envia_email();&#10;result.corpoEmail = &quot;Teste de Envio de Email pelo ODM Operational Decision Management !\n - EducaCiencia FastCode&quot;;&#10;result.assuntoEmail = &quot;Envio de Email usando ODM - Regra 2&quot;;&#10;result.emailDestino = &quot;perucello@sysconecte.com.br&quot;;&#10;return result;"/>
+<mapEntry key="Request" value="resultcom.odm.educaciencia.email.Request result = new com.odm.educaciencia.email.Request();&#10;result.corpoEmail = &quot;corpo&quot;;&#10;result.assuntoEmail = &quot;assunto&quot;;&#10;result.emailDestino = &quot;perucello@sysconecte.com.br&quot;;&#10;return result;&#10;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="Envia_email" value="Envia_email"/>
+<mapEntry key="Request" value="Request"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="Envia_email" value=""/>
+<mapEntry key="Request" value=""/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="Envia_email" value="2"/>
+<mapEntry key="Request" value="2"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ODM_EnvioEmail"/>
+<listEntry value="/ODM_EnvioEmail"/>
+<listEntry value="/ODM_EnvioEmail/implementação/envia.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ODM_EnvioEmail"/>
+</launchConfiguration>

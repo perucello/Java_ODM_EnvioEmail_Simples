@@ -1,0 +1,12 @@
+package com.odm.educaciencia.email.main;
+
+import com.odm.educaciencia.email.Envia_email;
+
+public class Main_ODM {
+
+	public static void main(String[] args) {
+
+		Envia_email send = new Envia_email();
+		send.enviaEmailODM();
+	}
+}

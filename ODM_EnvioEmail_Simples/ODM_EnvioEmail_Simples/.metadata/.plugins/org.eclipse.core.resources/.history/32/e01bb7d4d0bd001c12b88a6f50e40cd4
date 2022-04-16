@@ -1,0 +1,26 @@
+# Vocabulary Properties
+uuid = 092af862-6f03-4ed5-8946-1bc7a8feb113
+
+# com.odm.educaciencia.email.Envia_email
+com.odm.educaciencia.email.Envia_email#concept.label = envia email
+com.odm.educaciencia.email.Envia_email.assuntoEmail#phrase.action = atribuir o assunto email {this,PARTITIVE_ARTICLE} a {assunto email}
+com.odm.educaciencia.email.Envia_email.assuntoEmail#phrase.navigation = {assunto email} {this,PARTITIVE_ARTICLE}
+com.odm.educaciencia.email.Envia_email.corpoEmail#phrase.action = atribuir o corpo email {this,PARTITIVE_ARTICLE} a {corpo email}
+com.odm.educaciencia.email.Envia_email.corpoEmail#phrase.navigation = {corpo email} {this,PARTITIVE_ARTICLE}
+com.odm.educaciencia.email.Envia_email.emailDestino#phrase.action = atribuir o email destino {this,PARTITIVE_ARTICLE} a {email destino}
+com.odm.educaciencia.email.Envia_email.emailDestino#phrase.navigation = {email destino} {this,PARTITIVE_ARTICLE}
+com.odm.educaciencia.email.Envia_email.emailRemetente#phrase.action = atribuir o email remetente {this,PARTITIVE_ARTICLE} a {email remetente}
+com.odm.educaciencia.email.Envia_email.emailRemetente#phrase.navigation = {email remetente} {this,PARTITIVE_ARTICLE}
+com.odm.educaciencia.email.Envia_email.enviaEmailODM()#phrase.action = enviaEmailODM {this}
+com.odm.educaciencia.email.Envia_email.enviaEmailODM(java.lang.String,java.lang.String,java.lang.String)#phrase.action = {this}.enviaEmailODM({0}, {1}, {2})
+com.odm.educaciencia.email.Envia_email.observacoes#phrase.action = atribuir os observacoes {this,PARTITIVE_ARTICLE} a {observacoe}
+com.odm.educaciencia.email.Envia_email.observacoes#phrase.navigation = {observacoe} {this,PARTITIVE_ARTICLE}
+
+# com.odm.educaciencia.email.Request
+com.odm.educaciencia.email.Request#concept.label = request
+com.odm.educaciencia.email.Request.assuntoEmail#phrase.action = atribuir o assunto email {this,PARTITIVE_ARTICLE} a {assunto email}
+com.odm.educaciencia.email.Request.assuntoEmail#phrase.navigation = {assunto email} {this,PARTITIVE_ARTICLE}
+com.odm.educaciencia.email.Request.corpoEmail#phrase.action = atribuir o corpo email {this,PARTITIVE_ARTICLE} a {corpo email}
+com.odm.educaciencia.email.Request.corpoEmail#phrase.navigation = {corpo email} {this,PARTITIVE_ARTICLE}
+com.odm.educaciencia.email.Request.emailDestino#phrase.action = atribuir o email destino {this,PARTITIVE_ARTICLE} a {email destino}
+com.odm.educaciencia.email.Request.emailDestino#phrase.navigation = {email destino} {this,PARTITIVE_ARTICLE}

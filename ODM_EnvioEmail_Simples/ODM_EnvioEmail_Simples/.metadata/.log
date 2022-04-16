@@ -1,0 +1,720 @@
+!SESSION 2022-04-10 18:52:18.521 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_212-3-redhat
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-10 18:57:00.783
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.help.base 4 0 2022-04-10 20:49:40.510
+!MESSAGE Internal error while reading TOC contents from remote server
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; O tipo de elemento hr" deve ser encerrado pela tag final correspondente "</hr>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteTocParser.parse(RemoteTocParser.java:34)
+	at org.eclipse.help.internal.base.remote.RemoteTocProvider.getTocContributions(RemoteTocProvider.java:103)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY ilog.rules.studio.model 4 4 2022-04-10 20:49:40.866
+!MESSAGE GBRSM0046E: Exceção levantada ao compilar '/ODM_EnvioEmail/regras/01_EnviaEmail.trl'
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rules.studio.rve.builder.TechnicalRuleCompiler.setExecutionNames(TechnicalRuleCompiler.java:82)
+	at com.ibm.rules.studio.rve.builder.TechnicalRuleCompiler.compile(TechnicalRuleCompiler.java:54)
+	at com.ibm.rules.studio.rve.builder.RVERuleCompiler.compileProjectElement(RVERuleCompiler.java:422)
+	at com.ibm.rules.studio.rve.builder.RVERuleCompiler.compile(RVERuleCompiler.java:303)
+	at ilog.rules.studio.model.builder.IncrementalRuleProjectBuilder.compile(IncrementalRuleProjectBuilder.java:1105)
+	at ilog.rules.studio.model.builder.IncrementalRuleProjectBuilder.build(IncrementalRuleProjectBuilder.java:1056)
+	at ilog.rules.studio.model.builder.IncrementalRuleProjectBuilder.build(IncrementalRuleProjectBuilder.java:314)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.help.base 4 0 2022-04-10 20:49:41.401
+!MESSAGE Internal error while reading topic extensions from remote server
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; O tipo de elemento hr" deve ser encerrado pela tag final correspondente "</hr>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteExtensionProvider.getContentExtensions(RemoteExtensionProvider.java:66)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.loadExtensions(ContentExtensionManager.java:100)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.getExtensions(ContentExtensionManager.java:68)
+	at org.eclipse.help.internal.dynamic.ExtensionResolver.resolveExtension(ExtensionResolver.java:61)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handleExtension(ExtensionHandler.java:62)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handle(ExtensionHandler.java:43)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.access$1(TocAssembler.java:230)
+	at org.eclipse.help.internal.toc.TocAssembler$LinkHandler.handle(TocAssembler.java:361)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.assemble(TocAssembler.java:79)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:309)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 20:58:11.868
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive1.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.studio.rve.builder.MigrationException: 7 errors. 1: Não é possível localizar o tipo resultcom.odm.educaciencia.email.Request 2: Identificador indefinido result 3: Identificador indefinido result 4: Identificador indefinido result 5: Identificador indefinido result 6: Valor incompatível na instrução 'return' 7: A função get_Request_value() está ausente de uma instrução de retorno
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContext(SemSerializationService.java:191)
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContextForLaunchSupport(SemSerializationService.java:136)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:278)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:01:10.996
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive1.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.studio.rve.builder.MigrationException: 7 errors. 1: Não é possível localizar o tipo resultcom.odm.educaciencia.email.Request 2: Identificador indefinido result 3: Identificador indefinido result 4: Identificador indefinido result 5: Identificador indefinido result 6: Valor incompatível na instrução 'return' 7: A função get_Request_value() está ausente de uma instrução de retorno
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContext(SemSerializationService.java:191)
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContextForLaunchSupport(SemSerializationService.java:136)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:278)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:02:44.678
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive1.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.studio.rve.builder.MigrationException: 7 errors. 1: Não é possível localizar o tipo resultcom.odm.educaciencia.email.Request 2: Identificador indefinido result 3: Identificador indefinido result 4: Identificador indefinido result 5: Identificador indefinido result 6: Valor incompatível na instrução 'return' 7: A função get_Request_value() está ausente de uma instrução de retorno
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContext(SemSerializationService.java:191)
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContextForLaunchSupport(SemSerializationService.java:136)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:278)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:02:54.163
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive1.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.studio.rve.builder.MigrationException: 7 errors. 1: Não é possível localizar o tipo resultcom.odm.educaciencia.email.Request 2: Identificador indefinido result 3: Identificador indefinido result 4: Identificador indefinido result 5: Identificador indefinido result 6: Valor incompatível na instrução 'return' 7: A função get_Request_value() está ausente de uma instrução de retorno
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContext(SemSerializationService.java:191)
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContextForLaunchSupport(SemSerializationService.java:136)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:278)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:04:31.284
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive1.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.studio.rve.builder.MigrationException: 7 errors. 1: Não é possível localizar o tipo resultcom.odm.educaciencia.email.Request 2: Identificador indefinido result 3: Identificador indefinido result 4: Identificador indefinido result 5: Identificador indefinido result 6: Valor incompatível na instrução 'return' 7: A função get_Request_value() está ausente de uma instrução de retorno
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContext(SemSerializationService.java:191)
+	at com.ibm.rules.studio.rve.builder.SemSerializationService.newBuildContextForLaunchSupport(SemSerializationService.java:136)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:278)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY ilog.rules.studio.shared 1 1 2022-04-10 21:06:40.866
+!MESSAGE Variável de caminho de classe inicializada ILOG_BR_STUDIO_HOME com valor 'C:/Users/Usuario/eclipse/eclipse-standard-luna-SR2-win32-x86_64/eclipse/studio'.
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:18:54.886
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive8.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:19:47.164
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive9.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:20:19.131
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive10.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:20:37.167
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive11.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:21:48.377
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive12.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:22:54.349
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive13.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:23:21.237
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive14.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:23:59.393
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive15.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:25:15.791
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive16.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:25:54.074
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive17.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:26:43.560
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive18.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:27:25.352
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive19.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:28:05.355
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive20.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+
+!ENTRY ilog.rules.studio.launching 4 150 2022-04-10 21:28:52.847
+!MESSAGE GBRSM0276E: Ocorreu um erro inesperado ao gerar o archive do conjunto de regras'C:\Users\Usuario\Documents\Perucello SSD\00 ODM - Projetos FP\ODM_EnvioEmail_Simples\ODM_EnvioEmail_Simples\.metadata\.plugins\org.eclipse.core.resources\.projects\ODM_EnvioEmail\ilog.rules.studio.launching\ruleArchive21.dsar' para o projeto de regra 'ODM_EnvioEmail'.
+!STACK 0
+com.ibm.rules.container.EngineOutlineSerializationException: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:258)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:266)
+	at com.ibm.rules.container.EngineOutlineSerializer.writeJar(EngineOutlineSerializer.java:46)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.serializeEngineOutline(RVERulesetArchiveExporter.java:714)
+	at com.ibm.rules.studio.rve.builder.RVERulesetArchiveExporter.export(RVERulesetArchiveExporter.java:417)
+	at com.ibm.rules.studio.decisionservice.SDsRVERulesetArchiveExporter.export(SDsRVERulesetArchiveExporter.java:134)
+	at com.ibm.rules.studio.rve.launch.RveProjectLaunchBuildModeSupport.exportExecutionResources(RveProjectLaunchBuildModeSupport.java:90)
+	at ilog.rules.studio.launching.IlrProjectLaunchConfigurationDelegate.launch(IlrProjectLaunchConfigurationDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: 	Durante a aplicação do mapeamento de modelo business to execution (B2X)
+GBREX0011E: Não é possível localizar o método 'enviaEmailODM()' na classe de execução 'com.odm.educaciencia.email.Envia_email'
+
+	at ilog.rules.util.issue.IlrDefaultIssueHandler.throwException(IlrDefaultIssueHandler.java:69)
+	at ilog.rules.util.issue.IlrChainedIssueHandler.throwException(IlrChainedIssueHandler.java:57)
+	at com.ibm.rules.engine.b2x.transform.B2XMainLangTransformer.transformMemberDeclarations(B2XMainLangTransformer.java:141)
+	at com.ibm.rules.engine.lang.semantics.transform.SemMainLangTransformer.transformObjectModel(SemMainLangTransformer.java:241)
+	at com.ibm.rules.engine.outline.B2XModelTranslator$B2XRewriter.transform(B2XModelTranslator.java:351)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriter(EngineOutlineImpl.java:443)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.applyModelRewriters(EngineOutlineImpl.java:414)
+	at com.ibm.rules.engine.outline.EngineOutlineImpl.writeJarInStream(EngineOutlineImpl.java:515)
+	at com.ibm.rules.container.EnginePackageOpenXMLProducer.writeJar(EnginePackageOpenXMLProducer.java:253)
+	... 12 more
+!SESSION 2022-04-16 18:53:31.653 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_212-3-redhat
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.help.base 4 0 2022-04-16 18:55:44.142
+!MESSAGE Internal error while reading TOC contents from remote server
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; O tipo de elemento hr" deve ser encerrado pela tag final correspondente "</hr>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteTocParser.parse(RemoteTocParser.java:34)
+	at org.eclipse.help.internal.base.remote.RemoteTocProvider.getTocContributions(RemoteTocProvider.java:103)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.help.base 4 0 2022-04-16 18:55:46.142
+!MESSAGE Internal error while reading topic extensions from remote server
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; O tipo de elemento hr" deve ser encerrado pela tag final correspondente "</hr>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteExtensionProvider.getContentExtensions(RemoteExtensionProvider.java:66)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.loadExtensions(ContentExtensionManager.java:100)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.getExtensions(ContentExtensionManager.java:68)
+	at org.eclipse.help.internal.dynamic.ExtensionResolver.resolveExtension(ExtensionResolver.java:61)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handleExtension(ExtensionHandler.java:62)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handle(ExtensionHandler.java:43)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.access$1(TocAssembler.java:230)
+	at org.eclipse.help.internal.toc.TocAssembler$LinkHandler.handle(TocAssembler.java:361)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.assemble(TocAssembler.java:79)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:309)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-16 18:55:50.597
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY ilog.rules.studio.shared 1 1 2022-04-16 19:05:48.971
+!MESSAGE Variável de caminho de classe inicializada ILOG_BR_STUDIO_HOME com valor 'C:/Users/Usuario/eclipse/eclipse-standard-luna-SR2-win32-x86_64/eclipse/studio'.
